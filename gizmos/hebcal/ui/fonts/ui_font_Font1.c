@@ -4,7 +4,7 @@
  * Opts: --bpp 1 --size 16 --font C:/Users/Jonathan/SquareLine/assets/Provokateur DEMO.otf -o C:/Users/Jonathan/SquareLine/assets\ui_font_Font1.c --format lvgl -r 0x20-0x3f -r 0x5b-0x7f --no-compress --no-prefilter
  ******************************************************************************/
 
-#include "ui.h"
+#include "../ui.h"
 
 #ifndef UI_FONT_FONT1
 #define UI_FONT_FONT1 1

@@ -25,11 +25,12 @@ extern "C" {
 #include "ui_helpers.h"
 #include "ui_events.h"
 
-// SCREEN: ui_Screen1
-void ui_Screen1_screen_init(void);
-extern lv_obj_t * ui_Screen1;
-extern lv_obj_t * ui_omercount;
-extern lv_obj_t * ui_omernumber;
+// SCREEN: ui_main
+void ui_main_screen_init(void);
+extern lv_obj_t * ui_main;
+extern lv_obj_t * ui_TextArea1;
+extern lv_obj_t * ui_omerCounter;
+extern lv_obj_t * ui_omerLabel;
 extern lv_obj_t * ui____initial_actions0;
 
 
@@ -37,6 +38,7 @@ extern lv_obj_t * ui____initial_actions0;
 
 
 LV_FONT_DECLARE(ui_font_Font1);
+LV_FONT_DECLARE(ui_font_shantelbignumbers123);
 
 
 void ui_init(void);
